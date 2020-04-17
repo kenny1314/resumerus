@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+    font-family: "Segoe UI", "Helvetica", "Arial", sans-serif;
+    color: #24292e;
+    background-color: #ffffff;
+    max-width: 1024px;
+    margin: 32px auto;
+    padding-right: 16px;
+    padding-left: 16px;
+    font-size: 16px;
+    word-wrap: break-word;
+}
+
+.header {
+    margin-top: 0;
+}
+
+.header__job,
+.header__name {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    line-height: 1.25;
+}
+
+.contacts {
+    list-style: none;
+    padding-left: 0;
+}
+
+.contacts i {
+    margin-right: 25px;
+    font-size: 16px;
+    word-wrap: break-word;
+}
+
+.contacts__link,
+a {
+    color: 008b8b;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.about_me {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.photo {
+    align-self: flex-start;
+    width: auto;
+    height: 600px;
+}
+
+.about_me__text-area {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 600px;
+}
